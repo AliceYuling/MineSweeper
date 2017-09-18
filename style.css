@@ -1,0 +1,17 @@
+body{
+	font-size:14px;
+	font-family:serif;
+}
+#main{
+	margin:0 auto;
+	width:450px;
+	height:240px;
+}
+#bombCanvas{
+	border:1px solid #000;
+	background-color:rgb(211,211,211);
+}
+
+#bombImg{
+	display:none;
+}
