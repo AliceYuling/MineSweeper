@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bomb Scan</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+	<div class="main">	
+		<form>
+			等级：<select id="level" name="level" value="初级">
+				<option value="primary">初级</option>
+				<option value="middle">中级</option>
+				<option value="advance">高级</option>
+			</select>
+			<input type="button" onclick="startGame()" value="Start Game">
+		</form>
+		<canvas id="bombCanvas" width="135" height="135"></canvas>
+		<img id="bombImg" src="bombScan.png">
+	</div>
+
+	<script src="bomb.js">
+	</script>
+</body>
+</html>
